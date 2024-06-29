@@ -2,7 +2,40 @@
   --pink: LavenderBlush;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  background-color: var(--pink);
+  margin: 0;
+  height: 100vh;
+ 
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.start {
+  z-index: 1;
+  justify-content: center;
+  background-color: blue;
+}
+
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,8 +45,17 @@ body {
 }
 
 .circle {
+  position: absolute;
   width: 25px;
   height: 25px;
   background-color: red;
   border-radius: 50%;
 }
+
+.start p {
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  background-color: blue;
+  margin: 0 auto;
+} */
