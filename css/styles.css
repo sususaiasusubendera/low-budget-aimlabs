@@ -8,9 +8,9 @@
 
 body {
   background-color: var(--pink);
+  font-family: "Pixelify Sans", sans-serif;
   margin: 0;
   height: 100vh;
- 
 }
 
 .container {
@@ -35,30 +35,8 @@ body {
   z-index: 1;
   justify-content: center;
   position: absolute;
-  top: 43%;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 11em;
+  font-weight: 500;
 }
-
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: var(--pink);
-}
-
-.circle {
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  background-color: red;
-  border-radius: 50%;
-}
-
-.start p {
-  text-align: center;
-  position: absolute;
-  font-size: 20px;
-  background-color: blue;
-  margin: 0 auto;
-} */
